@@ -19,22 +19,18 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const axios = require('axios')
 const media = (
     await axios.get(
-      'https://i.imgur.com/8Usnvjv.mp4',
+      'https://i.imgur.com/ivs7Z8o.mp4',
       { responseType: 'stream' }
     )
   ).data;
 
-	if (body.indexOf("😛")==0 || body.indexOf("😊")==0) {
+	if (body.indexOf("sad")==0 || body.indexOf("😊")==0) {
 		var msg = {
-				body: "__আসবে দিন -যাবে - সময়__!😔
-___ হয়ে যাবে ইতি..!👀
-আসিফ এর মনে রয়ে যাবে..!!🥲
-এক বেইমানের স্মৃতি...!!..☔💫
-😅💔🥀",
+				body: "___ღ۵-🦋🌺🦋\nসেই মানুষটাকে জীবনে রেখে দাও🌸🥀..||\nযেই মানুষটা শত ব্যস্ততার মাঝেও তোমাকে মনে রাখে🥰C🤗..||\n🌻.প্রিয় সারাজীবন এইভাবে পাশে থেকো🥰\n\nAhmed Asif",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
-    api.setMessageReaction("sad", event.messageID, (err) => {}, true)
+    api.setMessageReaction("😅", event.messageID, (err) => {}, true)
 		}
 	},
 	start: function({ nayan }) {
