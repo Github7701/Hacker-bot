@@ -34,7 +34,7 @@ ___ হয়ে যাবে ইতি..!👀
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
-    api.setMessageReaction("😊", event.messageID, (err) => {}, true)
+    api.setMessageReaction("sad", event.messageID, (err) => {}, true)
 		}
 	},
 	start: function({ nayan }) {
