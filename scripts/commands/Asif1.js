@@ -24,7 +24,7 @@ const media = (
     )
   ).data;
 
-	if (body.indexOf"jumma mubarak")==0 || body.indexOf("😊")==0) {
+	if (body.indexOf"jumma")==0 || body.indexOf("😊")==0) {
 		var msg = {
 				body: "*┏━━━━ ﷽━━━━┓*     \n *📿জুম্মা মোবারক📿* \n*┗━━━━ ﷽━━━━┛*\n*❤️   আজ পবিত্র জুম্মার দিন.  ❤️*",
 				attachment: media
