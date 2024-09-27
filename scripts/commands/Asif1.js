@@ -24,16 +24,13 @@ const media = (
     )
   ).data;
 
-	if (body.indexOf("🤲")==0 || body.indexOf("😊")==0) {
+	if (body.indexOf("😌")==0 || body.indexOf("😊")==0) {
 		var msg = {
-				body: "/n*┏━━━━ ﷽━━━━┓*     
-          */n📿জুম্মা মোবারক📿* 
-          *┗━━━━﷽━━━━┛*
-/n*❤️   আজ পবিত্র জুম্মার দিন.  ❤️*/n",
+				body: "*┏━━━━ ﷽━━━━┓*     \n *📿জুম্মা মোবারক📿* \n*┗━━━━ ﷽━━━━┛*\n*❤️   আজ পবিত্র জুম্মার দিন.  ❤️*",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
-    api.setMessageReaction("🤗", event.messageID, (err) => {}, true)
+    api.setMessageReaction("😿", event.messageID, (err) => {}, true)
 		}
 	},
 	start: function({ nayan }) {
