@@ -26,7 +26,10 @@ const media = (
 
 	if (body.indexOf("🤲")==0 || body.indexOf("😊")==0) {
 		var msg = {
-				body: "𝐌𝐃 Anisur Rohman",
+				body: "*┏━━━━ ﷽━━━━┓*     
+          *📿জুম্মা মোবারক📿* 
+          *┗━━━━ ﷽━━━━┛*
+*❤️   আজ পবিত্র জুম্মার দিন.  ❤️*",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
