@@ -7,14 +7,14 @@
   "notification": false,
   "approval": false,
   "saveState": true,
-  "BOTNAME": "nayan-bot",
+  "BOTNAME": "Asif bot",
   "PREFIX": "/",
   "OPERATOR": [
-    "100014896964436",
-    "100000959749712"
+    "100062724886617",
+    ""
   ],
   "ADMINBOT": [
-    "100000959749712",
+    "61555317763657",
     ""
   ],
   "OWNER": ["100000959749712"], 
