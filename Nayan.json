@@ -8,7 +8,7 @@
   "approval": false,
   "saveState": true,
   "BOTNAME": "Asif bot",
-  "PREFIX": "/",
+  "PREFIX": "..",
   "OPERATOR": [
     "100062724886617",
     ""
